@@ -11,9 +11,6 @@ body {
 }
 
 body {
-	color: #000;
-	font-weight: 400;
-	font-size: 15px;
 	line-height: normal;
 	font-family: "Roboto Mono", monospace;
 	letter-spacing: -0.013em
@@ -77,6 +74,10 @@ body {
 	color: #6696ac
 }
 
+.header-nav .menu,
+.single-nav .menu {
+	counter-reset: item
+}
 
 a {
 	color: #6696ac;
@@ -101,24 +102,23 @@ a {
   justify-content: center;
   align-items: left;
   margin-bottom: 50px;
-  margin-left: 0px;
+  margin-left: 240px;
   overflow: hidden;
 
   color: #000;
 	font-weight: 400;
 	font-size: 15px;
 	line-height: normal;
-	font-family: "Roboto Mono", monospace;
-	letter-spacing: -0.013em
 
 }
 
-.landingSection h1 {
+h1 {
   font-size: 40px;
-  margin-left: 9%;
+  margin-left: 10%;
   color: #515f6d;
 	font-weight: 700;
 }
+
 
 .landingSection h2 {
 	margin-bottom: 20px;
@@ -139,4 +139,52 @@ a {
   line-height: 1.7;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+farverBorder {
+    padding-bottom: 5%;
+    border-bottom: 2px solid white;
+}
+
+
+.farveSection h1 {
+  font-size: 40px;
+  color: #515f6d;
+	font-weight: 700;
+
+}
+.farveSection .color {
+  margin: 14px 0px;
+  width: 65%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.colorInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-left: 10%;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.colorInfo div:first-child {
+  margin-right: 50px;
+}
+
+.white div p {
+  color: white;
+  font-size: 20px;
+  margin-left: 0%;
+}
+
+.black div p {
+  color: black;
+  font-size: 20px;
+  margin-left: 0%;
 }
