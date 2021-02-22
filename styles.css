@@ -412,3 +412,106 @@ farverBorder {
 .codeEmbed code {
   font-size: 20px;
 }
+
+/* ---  Navigation  --- */
+
+.navigationBorder {
+    padding-bottom: 5%;
+}
+
+
+.navigationSection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #121B2E;
+  margin-left: 5%;
+  font-family: proxima-nova, sans-serif;
+  margin-top: 5%;
+}
+
+.navigationSection h1 {
+  margin-top: 60px;
+  margin-bottom: 5%;
+  font-size: 40px;
+  width: 100%;
+  color: #fff;
+}
+
+.navigationSection p {
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navigationSection article {
+  width: 35%;
+}
+
+.navigationSection article h2 {
+  color: #fff;
+  margin-top: 5%;
+  font-size: 40px;
+}
+
+.navigationSection article h3 {
+  color: #fff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  text-decoration: none;
+}
+
+.navigationSection article a {
+  font-size: 16px;
+  color: white;
+}
+
+
+/*CODE SNIPPETS*/
+
+.navigationSection .ptools {
+  width: 40%;
+  margin-left: -5%;
+}
+
+.navigationSection .ptools h2 {
+  color: white;
+  font-size: 40px;
+  margin-left: 20%;
+  margin-top: 60px;
+}
+
+.navigationSection .ptools h3 {
+  color: white;
+  margin-left: 20%;
+  margin-top: 5%;
+
+}
+
+.navigationSection .ptools hr {
+  width: 100%;
+  margin: 10px 0;
+  margin-left: 20%;
+}
+
+.navigationSection .ptools p {
+  color: white;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.codeEmbed {
+  position: relative;
+  padding: 20px;
+  border-left: 3px solid #9CD9B9;
+  background-image: linear-gradient(to right, rgb(236, 236, 236), white);
+  margin-bottom: 40px;
+  margin-left: 20%;
+  width: 75%;
+}
+
+.codeEmbed code {
+  font-size: 20px;
+}
