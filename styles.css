@@ -307,6 +307,9 @@ farverBorder {
 }
 
 
+.Grafik{
+  margin-left: 240px;
+}
 
 /* --- Typografi  --- */
 
@@ -415,6 +418,10 @@ farverBorder {
 }
 
 /* ---  Navigation  --- */
+
+.navigation{
+  margin-left: 400px;
+}
 
 .navigationBorder {
     padding-bottom: 5%;
