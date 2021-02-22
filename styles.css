@@ -114,7 +114,7 @@ a {
 
 h1 {
   font-size: 40px;
-  margin-left: 10%;
+  margin-left: 9%;
   color: #515f6d;
 	font-weight: 700;
 }
@@ -149,6 +149,7 @@ farverBorder {
 
 .farveSection h1 {
   font-size: 40px;
+  margin-left: 370px;
   color: #515f6d;
 	font-weight: 700;
 
@@ -159,7 +160,7 @@ farverBorder {
   height: 120px;
   display: flex;
   flex-direction: row;
-  margin-left: 10%;
+    margin-left: 370px;
   margin-right: 10%;
 }
 
@@ -170,7 +171,6 @@ farverBorder {
   justify-content: left;
   margin-left: 10%;
   align-items: center;
-  margin-left: 10%;
 }
 
 .colorInfo div:first-child {
@@ -187,4 +187,228 @@ farverBorder {
   color: black;
   font-size: 20px;
   margin-left: 0%;
+}
+/* --- Knapper section  --- */
+
+
+.knapperBorder {
+    padding-bottom: 5%;
+    border-bottom: 2px solid white;
+}
+
+.knapperSection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  font-family: proxima-nova, sans-serif;
+  margin-top: 5%;
+}
+
+.knapperSection h1 {
+  margin-top: 60px;
+  margin-bottom: 3%;
+  font-size: 40px;
+  width: 100%;
+}
+
+.knapperSection article {
+  width: 35%;
+}
+
+.knapperSection article h2 {
+  margin: 10px 0;
+  font-size: 40px;
+}
+
+.knapperSection article h3 {
+}
+
+.knapperSection article hr {
+  width: 60%;
+  margin: 10px 0;
+}
+
+.knapperSection article p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+
+/* atomic Knapper */
+
+.atomicknapper {
+  width: 70%;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+.knapperBorder .atomicheaderknapper {
+  font-size: 20px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+
+
+
+/*CODE SNIPPETS*/
+
+.knapperSection .ptools {
+  width: 40%;
+  margin-left: -5%;
+}
+
+.knapperSection .ptools h2 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  margin-left: 20%;
+}
+
+.knapperSection .ptools h3 {
+  margin-left: 20%;
+
+}
+
+.knapperSection .ptools hr {
+  width: 100%;
+  margin-left: 20%;
+}
+
+.knapperSection .ptools p {
+  font-size: 20px;
+}
+
+.codeEmbed {
+  position: relative;
+  padding: 20px;
+  border-left: 3px solid #9CD9B9;
+  background-image: linear-gradient(to right, rgb(236, 236, 236), white);
+  margin-bottom: 40px;
+  margin-left: 20%;
+  width: 75%;
+}
+
+.codeEmbed code {
+  font-size: 20px;
+}
+
+.knapperBorder{
+  margin-left: 340px;
+  margin-top: 150px;
+}
+
+.knapperborder h1 {
+  margin-left: 340px;
+}
+
+
+
+/* --- Typografi  --- */
+
+.typoBorder {
+    padding-bottom: 5%;
+    border-bottom: 2px solid white;
+    margin-top: 150px;
+}
+
+
+.typoSection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+
+.typoSection h1 {
+  font-size: 40px;
+  margin-left: 9%;
+  color: #515f6d;
+	font-weight: 700;
+}
+
+.typoSection article {
+  width: 35%;
+}
+
+.typoSection article h2 {
+  margin-bottom: 20px;
+  color: #515f6d;
+  font-weight: 400;
+  font-size: 22px
+}
+
+.typoSection article h3 {
+  margin-left: 10%;
+  color: #515f6d;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.typoSection article hr {
+  width: 60%;
+}
+
+.typoSection article p {
+  margin-bottom: 1.7em;
+  line-height: 1.7;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+
+
+/*CODE SNIPPETS*/
+
+.typoSection .ptools {
+  width: 40%;
+  margin-left: -5%;
+}
+
+.typoSection .ptools h2 {
+  margin-bottom: 20px;
+  color: #515f6d;
+  font-weight: 400;
+  font-size: 22px;
+  margin-left: 85px;
+}
+
+.typoSection .ptools h3 {
+  margin-left: 10%;
+  color: #515f6d;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.typoSection .ptools hr {
+  width: 100%;
+  margin: 10px 0;
+  margin-left: 20%;
+}
+
+.typoSection .ptools p {
+  margin-bottom: 1.7em;
+  line-height: 1.7;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.codeEmbed {
+  position: relative;
+  padding: 20px;
+  border-left: 3px solid #9CD9B9;
+  background-image: linear-gradient(to right, rgb(236, 236, 236), white);
+  margin-bottom: 40px;
+  margin-left: 20%;
+  width: 75%;
+  }
+
+.codeEmbed code {
+  font-size: 20px;
 }
