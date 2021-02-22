@@ -162,6 +162,7 @@ farverBorder {
   flex-direction: row;
     margin-left: 370px;
   margin-right: 10%;
+  border-radius: 15px;
 }
 
 .colorInfo {
