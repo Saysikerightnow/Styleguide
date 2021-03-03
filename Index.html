@@ -6,35 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>Styleguide</title>
+      <script src="kontaktjs.js" defer></script>
   </head>
 
   <body>
 
 
     <nav id="header-nav" class="header-nav jq-clipthru-origin active" role="navigation" style="clip: rect(auto, auto, auto, auto);">
-    		<a class="logo internal" href="index.html" rel="home" title="House of Code">House of Code</a>
+    		<a class="logo internal" href="index.html" rel="home" title="House of Code"></a>
     		<ul id="menu-hovedmenu" class="menu"><li class="nav-item"><a title="Start" class="nav-link internal" href="index.html">Start</a></li>
-    <li class="nav-item"><a title="Farver" class="nav-link internal" href="index.html">Farver</a></li>
-    <li class="nav-item"><a title="Grafik" class="nav-link internal" href="index.html">Grafik</a></li>
-    <li class="nav-item"><a title="Logo" class="nav-link internal" href="index.html">Logo</a></li>
-    <li class="nav-item"><a title="Knapper" class="nav-link internal" href="index.html">Knapper</a></li>
-    <li class="nav-item"><a title="Typografi" class="nav-link internal" href="index.html">Typografi</a></li>
+    <li class="nav-item"><a title="Farver" class="nav-link internal" href="#farveSection">Farver</a></li>
+    <li class="nav-item"><a title="Grafik" class="nav-link internal" href="#Grafik">Grafik</a></li>
+    <li class="nav-item"><a title="Logo" class="nav-link internal" href="#Logo">Logo</a></li>
+    <li class="nav-item"><a title="Knapper" class="nav-link internal" href="#Knapper">Knapper</a></li>
+    <li class="nav-item"><a title="Typografi" class="nav-link internal" href="#typoSection">Typografi</a></li>
     <li class="nav-item"><a title="Inputs/formler" class="nav-link internal" href="index.html">Inputs/formler</a></li>
-    <li class="nav-item"><a title="Ikoner" class="nav-link internal" href="index.html">Ikoner</a></li>
-    <li class="nav-item"><a title="Navigation" class="nav-link internal" href="index.html">Navigation</a></li>
+    <li class="nav-item"><a title="Ikoner" class="nav-link internal" href="#Ikoner">Ikoner</a></li>
+    <li class="nav-item"><a title="Navigation" class="nav-link internal" href="#navigationSection">Navigation</a></li>
     </ul>	</nav>
 
-    <main class="mainWrapper">
-      <section class="landingSection" id="landingSection">
-        <h1>House Of Code</h1>
-        <h3>UCL - GRUPPE 23</h3>
-        <br>
-        <p>
-          LOREM IPSUM LOREM IPSUMLOREM IPSUM <br>
-          TLOREM IPSUM LOREM IPSUMAG LOREM IPSUM LOREM IPSUM. <br>
-          LOREM IPSUM LOREM IPSUMLOREM IPSUM LOREM IPSUMLOREM IPSUM LOREM IPSUM
-        </p>
-      </section>
+<section class="parallax1">
+<img src="images/1.png" data-speed="-5" class="layer">
+<img src="images/2.png" data-speed="5"  class="layer">
+<img src="images/3.png" data-speed="6"  class="layer">
+<img src="images/4.png" data-speed="2"  class="layer">
+<img src="images/5.png" data-speed="8"  class="layer">
+<img src="images/6.png" data-speed="-2" class="layer">
+<img src="images/7.png" data-speed="4"  class="layer">
+<img src="images/8.png" data-speed="-9" class="layer">
+<img src="images/9.png" data-speed="6"  class="layer">
+<img src="images/10.png"data-speed="-5" class="layer">
+<img src="images/11.png"data-speed="-7" class="layer">
+
+  <main class="mainWrapper">
+<h1>House Of Code</h1>
+<h3>UCL - GRUPPE 23</h3>
+<br>
+<p>
+  LOREM IPSUM LOREM IPSUMLOREM IPSUM <br>
+  TLOREM IPSUM LOREM IPSUMAG LOREM IPSUM LOREM IPSUM. <br>
+  LOREM IPSUM LOREM IPSUMLOREM IPSUM LOREM IPSUMLOREM IPSUM LOREM IPSUM
+</p>
+</section>
 
 
       <!--FARVER-->
@@ -121,24 +134,24 @@
 
       <!--Grafik-->
       <section class="knapperBorder">
-              <section class="knapperSection" id="knapperSection">
+              <section class="knapperSection" id="Grafik">
                 <article>
 
                   <h1>Grafik</h1>
                   <h3>Animation</h3>
                   <hr>
-
-
+    <div id="kontaktkommentar"></div>
+<span>#StayAwesome<span>
                 </article>
 
       <!-- CODE SNIPPETS-->
 
                 <article class="ptools">
                   <h1>Code Snippets</h1>
-                  <h3>Animation JavaScript</h3>
+                  <h3>Animation HTML</h3>
                   <hr>
                   <div class="codeEmbed">
-                    <code></code>
+                    <code>&lt;div id="kontaktkommentar"&gt;&lt;/div&lt;</code>
                   </div>
 
                 </article>
@@ -147,13 +160,14 @@
 
                 <!--LOGO-->
                 <section class="knapperBorder">
-                        <section class="knapperSection" id="knapperSection">
+                        <section class="knapperSection" id="Logo">
                           <article>
 
                             <h1>Logo</h1>
-                            <h3>Logo</h3>
+                            <h3>House of Code - Logo</h3>
                             <hr>
-
+<h3 class="houselogo"></h3>
+<img src="logo.png" alt="hoclogo" class="hoclogo">
 
                           </article>
 
@@ -164,7 +178,7 @@
                             <h3>Logo html</h3>
                             <hr>
                             <div class="codeEmbed">
-                              <code></code>
+                              <code>&lt;img src="logo.png" alt="hoclogo" class="hoclogo"&gt;</code>
                             </div>
 
                           </article>
@@ -175,13 +189,13 @@
 
       <!--KNAPPER-->
       <section class="knapperBorder">
-              <section class="knapperSection" id="knapperSection">
+              <section class="knapperSection" id="Knapper">
                 <article>
 
                   <h1>Knapper</h1>
                   <h3>STANDARD KNAP</h3>
                   <hr>
-                  <button type="button">BUTTON</button>
+                  <a href="https://www.houseofcode.io/kontakt/" class="button kontaktos">Kontakt os</a>
 
                 </article>
 
@@ -192,7 +206,7 @@
                   <h3>STANDARD KNAP</h3>
                   <hr>
                   <div class="codeEmbed">
-                    <code>&lt;a class="standardBtn"&gt;BUTTON&lt;/a&gt;</code>
+                    <code>&lta href="https://www.houseofcode.io/kontakt/" class="button kontaktos">Kontakt os&lt;/a&gt;</code>
                   </div>
 
                 </article>
@@ -266,7 +280,7 @@
 
                     <!--Ikoner-->
                     <section class="knapperBorder">
-                            <section class="knapperSection" id="knapperSection">
+                            <section class="knapperSection" id="Ikoner">
                               <article>
 
                                 <h1>Ikoner</h1>
@@ -294,44 +308,36 @@
                           <!--Navigation-->
 
                     <section class="navigation">
-                      <section class="navigationsektion" id="navigationsektion">
+                      <section class="navigationSection" id="navigationSection">
                         <article>
                           <h1>Navigation</h1>
                           <p>Eksempel på main navigation kan ses til venstre</p>
-                          <h3><______</h3>
+                          <h3></h3>
 
                         </article>
                       </section>
-                    
 
-                    <!-- CODE SNIPPETS-->
-                              <article class="ptools">
-                              <h1>Code Snippets</h1>
-                              <h3>Main nav HTML</h3>
-                              <hr>
-                              <div class="codeEmbed">
 
-                              <code>
-
-                              </code>
-                              </div>
-
-                              <h3>SUB NAV</h3>
-                              <hr>
-                              <div class="codeEmbed">
-
-                              <code>
-
-                              </code>
-                              </div>
                               </article>
                               </section>
 
 
+                              <script type="text/javascript">
 
+                              document.addEventListener("mousemove", parallax);
+                              function parallax(e){
+                                this.querySelectorAll('.layer').forEach(layer => {
+                                  const speed = layer.getAttribute('data-speed')
 
+                                  const x = (window.innerWidth - e.pageX*speed)/100
+                                  const y = (window.innerWidth - e.pageY*speed)/100
 
+                                  layer.style.transform=`translateX(${x}px) translateY(${y}px)`
+console.log(e)
+                                })
+                              }
 
+                              </script>
 
 
   </body>
