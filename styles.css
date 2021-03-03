@@ -1,13 +1,16 @@
 html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%
+	-webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+
 }
 
 body {
 	background-color: #fff;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale
+	-moz-osx-font-smoothing: grayscale;
+
 }
 
 body {
@@ -33,7 +36,7 @@ body {
 	margin-bottom: 50px;
 	width: 97px;
 	height: 54px;
-	background: url("../img/svg/hoc-icon-color.svg") no-repeat;
+ background: url(https://www.houseofcode.io/wp-content/themes/hoc/library/img/svg/hoc-icon-color.svg) no-repeat;
 	display: block
 }
 
@@ -43,7 +46,7 @@ body {
 .single-nav .nav-item {
 	margin-top: 25px;
 	color: #515f6d;
-	font-size: 18px
+	font-size: 18px;
 }
 
 .header-nav .nav-item:before {
@@ -86,12 +89,12 @@ a {
 	transition: color 200ms
 }
 
-.mainWrapper {
+section .mainWrapper {
   position: relative;
-  left: 240px;
-
+  left: 30%;
+	top: 20%;
+justify-content: center;
   max-width: 100%;
-
 }
 
 .landingSection {
@@ -112,33 +115,60 @@ a {
 
 }
 
-h1 {
-  font-size: 40px;
-  margin-left: 9%;
-  color: #515f6d;
-	font-weight: 700;
+.parallax1{
+	position:relative;
+	width: 100%;
+	height: 1042px;
+overflow: hidden;
+	display: flex;
+
+}
+section img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	z-index: 1;
+
 }
 
+h1 {
+  font-size: 40px;
+  color: #515f6d;
+	font-weight: 700;
+	font-family: "Roboto Mono", monospace;
+}
 
-.landingSection h2 {
+.mainWrapper
+{
+justify-content: center;
+	z-index: 2;
+	position: relative;
+}
+Section h2 {
 	margin-bottom: 20px;
 	color: #515f6d;
 	font-weight: 400;
-	font-size: 22px
+	font-size: 22px;
+font-family: "Roboto Mono", monospace;
 }
 
-.landingSection h3 {
+Section h3 {
   margin-left: 10%;
   color: #515f6d;
   	font-weight: 400;
-  	font-size: 18px
+  	font-size: 18px;
+		font-family: "Roboto Mono", monospace;
 }
 
-.landingSection p {
+Section p {
   margin-bottom: 1.7em;
   line-height: 1.7;
   margin-left: 10%;
   margin-right: 10%;
+	font-family: "Roboto Mono", monospace;
 }
 
 farverBorder {
@@ -149,7 +179,7 @@ farverBorder {
 
 .farveSection h1 {
   font-size: 40px;
-  margin-left: 370px;
+  margin-left: 400px;
   color: #515f6d;
 	font-weight: 700;
 
@@ -160,13 +190,13 @@ farverBorder {
   height: 120px;
   display: flex;
   flex-direction: row;
-    margin-left: 370px;
+    margin-left: 20%;
   margin-right: 10%;
   border-radius: 15px;
 }
 
 .colorInfo {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -180,13 +210,13 @@ farverBorder {
 
 .white div p {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 0%;
 }
 
 .black div p {
   color: black;
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 0%;
 }
 /* --- Knapper section  --- */
@@ -238,7 +268,7 @@ farverBorder {
 }
 
 
-/* atomic Knapper */
+/* Knapper */
 
 .atomicknapper {
   width: 70%;
@@ -252,7 +282,15 @@ farverBorder {
   margin-top: 5%;
 }
 
+/* Logo */
+.hoclogo {
+	margin-top: 2860px;
+	margin-left: 420px;
+	width: 194px;
+	height: 108px;
+	display: block
 
+}
 
 
 /*CODE SNIPPETS*/
@@ -261,12 +299,14 @@ farverBorder {
   width: 40%;
   margin-left: -5%;
 }
+.ptools h1{
+	margin-left: 20%;
+}
 
 .knapperSection .ptools h2 {
   margin-top: 60px;
   margin-bottom: 20px;
   font-size: 40px;
-  margin-left: 20%;
 }
 
 .knapperSection .ptools h3 {
@@ -311,6 +351,23 @@ farverBorder {
   margin-left: 240px;
 }
 
+.button {
+  background-color: #aa81ac;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 5px 20px;
+}
+.kontaktos {
+  background-color: #ffffff;
+  color: #aa81ac;
+  border: 5px solid #aa81ac;
+}
 /* --- Typografi  --- */
 
 .typoBorder {
@@ -329,12 +386,6 @@ farverBorder {
   margin-left: 5%;
 }
 
-.typoSection h1 {
-  font-size: 40px;
-  margin-left: 9%;
-  color: #515f6d;
-	font-weight: 700;
-}
 
 .typoSection article {
   width: 35%;
@@ -348,7 +399,6 @@ farverBorder {
 }
 
 .typoSection article h3 {
-  margin-left: 10%;
   color: #515f6d;
     font-weight: 400;
     font-size: 18px
@@ -361,7 +411,7 @@ farverBorder {
 .typoSection article p {
   margin-bottom: 1.7em;
   line-height: 1.7;
-  margin-left: 10%;
+
   margin-right: 10%;
 }
 
@@ -372,7 +422,7 @@ farverBorder {
 
 .typoSection .ptools {
   width: 40%;
-  margin-left: -5%;
+
 }
 
 .typoSection .ptools h2 {
@@ -380,7 +430,8 @@ farverBorder {
   color: #515f6d;
   font-weight: 400;
   font-size: 22px;
-  margin-left: 85px;
+	margin-left: 130px;
+
 }
 
 .typoSection .ptools h3 {
@@ -419,96 +470,45 @@ farverBorder {
 
 /* ---  Navigation  --- */
 
-.navigation{
-  margin-left: 400px;
-}
-
-.navigationBorder {
-    padding-bottom: 5%;
-}
-
-
 .navigationSection {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #121B2E;
   margin-left: 5%;
-  font-family: proxima-nova, sans-serif;
+  font-family: Roboto, sans-serif;
   margin-top: 5%;
 }
 
-.navigationSection h1 {
-  margin-top: 60px;
-  margin-bottom: 5%;
-  font-size: 40px;
-  width: 100%;
-  color: #fff;
-}
-
-.navigationSection p {
-    width: 100%;
-    font-size: 16px;
-    color: #fff;
-}
 
 .navigationSection article {
   width: 35%;
+	margin-left: 320px;
 }
 
 .navigationSection article h2 {
-  color: #fff;
-  margin-top: 5%;
+  margin: 10px 0;
   font-size: 40px;
 }
 
 .navigationSection article h3 {
-  color: #fff;
-  margin-top: 10%;
-  margin-bottom: 5%;
-  text-decoration: none;
 }
 
-.navigationSection article a {
-  font-size: 16px;
-  color: white;
+.navigationSection article hr {
+  width: 60%;
+  margin: 10px 0;
 }
+
+.navigationSection article p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
 
 
 /*CODE SNIPPETS*/
 
-.navigationSection .ptools {
-  width: 40%;
-  margin-left: -5%;
-}
-
-.navigationSection .ptools h2 {
-  color: white;
-  font-size: 40px;
-  margin-left: 20%;
-  margin-top: 60px;
-}
-
-.navigationSection .ptools h3 {
-  color: white;
-  margin-left: 20%;
-  margin-top: 5%;
-
-}
-
-.navigationSection .ptools hr {
-  width: 100%;
-  margin: 10px 0;
-  margin-left: 20%;
-}
-
-.navigationSection .ptools p {
-  color: white;
-  font-size: 20px;
-  margin: 10px 0;
-}
 
 .codeEmbed {
   position: relative;
@@ -522,4 +522,24 @@ farverBorder {
 
 .codeEmbed code {
   font-size: 20px;
+}
+
+
+#kontaktkommentar {
+  background-color: #ffffff;
+  width: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 22px;
+  color: #515f6d;
+  font-size: 22px;
+  font-weight: 700;
+	font-family: "Roboto Mono", monospace;
+}
+span{
+	font-size: 22px;
+margin-bottom: 20px;
+font-weight: 700;
+color: #aa81ac;
+	font-family: "Roboto Mono", monospace;
 }
